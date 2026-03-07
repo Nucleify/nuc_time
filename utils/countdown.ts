@@ -1,5 +1,5 @@
-import type { NucTimeCalculateCountdownInterface } from 'atomic'
-import { daysLeft, hoursLeft, minutesLeft, secondsLeft } from 'atomic'
+import type { NucTimeCalculateCountdownInterface } from 'nucleify'
+import { daysLeft, hoursLeft, minutesLeft, secondsLeft } from 'nucleify'
 
 export function calculateCountdown(
   target: Date | number | string

@@ -14,8 +14,8 @@
 import type {
   NucTimeCalculateCountdownInterface,
   NucTimeCountdownInterface,
-} from 'atomic'
-import { calculateCountdown } from 'atomic'
+} from 'nucleify'
+import { calculateCountdown } from 'nucleify'
 
 const props = defineProps<NucTimeCountdownInterface>()
 
