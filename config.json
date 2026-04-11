@@ -1,7 +1,7 @@
 {
   "name": "nuc_time",
   "description": "Module that contains time functions.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "category": "core",
   "installed": true,
   "enabled": true

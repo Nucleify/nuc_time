@@ -1,12 +1,17 @@
 <template>
   <div class="nuc-countdown">
-    <div v-if="result && !result.finished && !result.expired" class="time-display">
+    <div
+      v-if="result && !result.finished && !result.expired"
+      class="time-display"
+    >
       <span v-if="result.days > 0" class="time">{{ result.days }}d</span>
       <span class="time">{{ result.hours }}h</span>
       <span class="time">{{ result.minutes }}m</span>
       <span class="time">{{ result.seconds }}s</span>
     </div>
-    <div v-else-if="result" class="finished">{{ result.expired ? 'Expired' : 'Finished' }}</div>
+    <div v-else-if="result" class="finished">
+      {{ result.expired ? 'Expired' : 'Finished' }}
+    </div>
   </div>
 </template>
 
